@@ -23,7 +23,7 @@ rm -rf /home/skye/bomb/dtbo.img
 rm -rf .version
 rm -rf .local
 #make O=/home/skye/bomb/out clean
-make O=/home/skye/bomb/out ARCH=arm64 LLVM=1 LLVM_IAS=1 "${MAKE_OPT[@]}" vendor/kona-perf_defconfig vendor/kona-sec-perf_defconfig vendor/samsung/x1q.config
+make O=/home/skye/bomb/out ARCH=arm64 LLVM=1 LLVM_IAS=1 "${MAKE_OPT[@]}"vendor/bengal-perf_defconfig vendor/lito-perf_defconfig vendor/kona-perf_defconfig vendor/kona-sec-perf_defconfig vendor/samsung/x1q.config
 
 echo "*****************************************"
 echo "*****************************************"
